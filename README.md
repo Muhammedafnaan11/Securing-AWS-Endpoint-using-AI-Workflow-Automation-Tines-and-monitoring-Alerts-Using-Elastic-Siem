@@ -1,4 +1,4 @@
-<img width="1915" height="958" alt="Screenshot 2026-01-28 104216" src="https://github.com/user-attachments/assets/58a74541-1b7a-48fa-b2ea-f0ceaaff98d7" />This lab replicates a real SOC workflow from collecting endpoint logs to correlating events in Elastic SIEM and using AI automation in Tines for alert summarization.
+This lab replicates a real SOC workflow from collecting endpoint logs to correlating events in Elastic SIEM and using AI automation in Tines for alert summarization.
 
 🎯 Objective
 I built this to understand how a cloud-hosted Windows endpoint can be monitored, detected, and automated using Elastic SIEM and Tines.
@@ -29,6 +29,9 @@ Simulated an admin login to validate the entire pipeline
 🛠️ Setup Overview
 
 I launched a Windows Server 2025 instance in AWS EC2 and configured secure RDP access.
+<img width="1915" height="958" alt="Screenshot 2026-01-28 104216" src="https://github.com/user-attachments/assets/d2948f9a-2f69-4a0f-988d-16a71e74e5ff" />
+
+
 
 After deployment, I installed Elastic Agent and enrolled it into Elastic Cloud. Once the agent showed as healthy, I enabled Elastic Defend to get full endpoint visibility.
 
